@@ -1,5 +1,5 @@
 ARG version
-FROM almalinux:${version}
+FROM almalinux:${version:-8}
 ARG course=DevOps
 ARG duration=120hrs
 ARG Trainer=Vijaysai
