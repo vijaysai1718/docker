@@ -1,4 +1,4 @@
 FROM almalinux:9
-RUN adduuser vijaysai
+RUN adduser vijaysai
 USER vijaysai
 CMD [ "sleep", "120" ]
