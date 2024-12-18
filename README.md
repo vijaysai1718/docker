@@ -7,7 +7,8 @@ Example:
 
 FROM python:3.9-slim
 This sets the base image to a lightweight Python 3.9 image.
-2. RUN
+
+**2. RUN**
 Executes commands inside the container during the build process.
 Often used to install packages, update systems, or configure dependencies.
 Example:
