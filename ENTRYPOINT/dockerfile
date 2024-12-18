@@ -1,3 +1,3 @@
 FROM almalinux:9
 CMD ["joindevops.com"]
-ENTRYPOINT [ "ping","-c5","google.com" ]
+ENTRYPOINT [ "ping","-c5" ]
