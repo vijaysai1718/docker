@@ -1,0 +1,4 @@
+FROM alamalinux:9
+RUN addusr vijaysai
+USER vijaysai
+CMD [ "sleep", "100" ]
